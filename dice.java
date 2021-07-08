@@ -13,5 +13,10 @@ for(int i = 1;i <= 2; i++){
 }
 
 System.out.println("Total value: " + totalValue);
+if(totalValue>7){
+  System.out.println("You won");
+}else{
+  System.out.println("You lost");
+}
   }
 }
