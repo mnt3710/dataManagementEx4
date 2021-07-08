@@ -6,9 +6,9 @@ public class dice{
     Scanner scanner = new Scanner(System.in);
 	System.out.println("What is your name?");
 	String string = scanner.next();
-	System.out.println("Hello, " + string + "!");
+  System.out.println("Hello, " + string + "!");
 
-System.out.println("Rolling the dice...");
+  System.out.println("Rolling the dice...");
       int firstDice = 0;
       int secondDice = 0;
       int totalValue = 0;
